@@ -1,2 +1,3 @@
-A simple app that pings pokeapi.co and uses the response to populate elements in our app.
-Later I'd like to use the locations where you can find a specific pokemon, maybe add another button to create a list with each location a list item.
+A simple app that pings pokeapi.co API and uses the response to populate elements in our app, so when given a name it returns an image and its type of Pokemon.
+Now we have functionality for locations listed where to find the Pokemon.
+I'll add logic later to tell the user they cannot look up locations if a Pokemon is not searched for.
