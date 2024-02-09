@@ -359,46 +359,56 @@
 #logo{
     display: block;
     margin: 5vh auto;
-    max-width: 100%;
+    max-width: 95%;
 }
 
+/*Red square object from the cartoons */
 #pokedex{
-    width: 250px;
+    width: 300px;
     background-color: red;
     margin: 0 auto;
     padding: 10px;
 }
+/*sizes the input element and search button next to it, as well as the location button and list items*/
 #inputs, #locations{
     display: flex;
     justify-content: center;
 }
+/*image area to display image of searched pokemon*/
 #viewer{
     max-width: 90%;
     border: 5px solid white;
 }
+/*Actual image element inside the white bordered viewer area*/
 #viewer>img{
     width: 100%
 }
 
-#inputs, #viewer{
+/*Added centering margin for viewer area*/
+#viewer{
     margin: 0 auto;
 }
+/*name and type fields for data*/
 #details>*, h1{
     text-align: center;
 }
+/*Add a bottom margin to every element inside the pokedex for more readability*/
 #pokedex>*{
     margin-bottom: 10px;
 }
-
+/*Wrap the get locations button and the ul so they are on a separate line than each other*/
 #locations{
   flex-wrap: wrap;
 }
+
+/*Layout of area for list items that are locations where to find a searched pokemon*/
 ul{
   width: 80%;
   padding: 0;
   margin: 0 auto;
 }
 
+/*Styling for the location area list items*/
 ul li{
   list-style-type: none;
   text-align: center;
