@@ -414,3 +414,9 @@ ul li{
   text-align: center;
   padding-top: 5px;
 }
+/*Styling of the footer*/
+footer{
+  margin: auto;
+  text-align: center;;
+  width: 80%;
+}
